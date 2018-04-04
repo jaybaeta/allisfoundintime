@@ -38,3 +38,18 @@
   color: #FCFCFC;
   opacity: 0.6;
 }
+
+@media (max-width: 767.98px) {
+  .sidebar {
+    position: relative;
+    padding: 15px;
+  }
+
+  .sidebar img {
+    max-width: 200px;
+  }
+
+  .sidebar-sticky {
+    height: calc(88vh - 48px);
+  }
+}
