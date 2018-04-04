@@ -52,4 +52,9 @@
   .sidebar-sticky {
     height: calc(88vh - 48px);
   }
+
+  .sidebar .pl-5 {
+    padding-left: 0 !important;
+    text-align: center;
+  }
 }
