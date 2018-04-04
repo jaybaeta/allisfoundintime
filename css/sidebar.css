@@ -1,0 +1,40 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 100; /* Behind the navbar */
+  padding: 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  /*top: 48px;*/ /* Height of navbar */
+  height: calc(94vh - 48px);
+  /*padding-top: .5rem;*/
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+.sidebar .nav-link {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #FCFCFC;
+}
+
+.sidebar .nav-link:hover, .sidebar .nav-link:active, .sidebar .nav-link.active {
+  color: #FCFCFC;
+  opacity: 0.6;
+}
+
+.sidebar a {
+  color: #FCFCFC;
+}
+
+.sidebar a:hover, .sidebar a:active {
+  color: #FCFCFC;
+  opacity: 0.6;
+}
