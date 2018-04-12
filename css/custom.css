@@ -17,11 +17,6 @@ button.bg-primary:focus {
   background-color: #44878F !important;
 }
 
-.footnotes {
-  background-color: #3d7980;
-  color: #FCFCFC;
-}
-
 .sidebar {
   position: fixed;
   top: 0;
@@ -85,4 +80,22 @@ button.bg-primary:focus {
 
 ol {
   padding-left: 0;
+}
+
+.navbar-article {
+  background-color: #3d7980;
+  color: #FCFCFC;
+}
+
+.navbar-article .nav-link {
+  color: #fcfcfc;
+}
+
+.navbar-article .nav-link:hover {
+  opacity: 0.6;
+}
+
+.footnotes {
+  background-color: #3d7980;
+  color: #FCFCFC;
 }
