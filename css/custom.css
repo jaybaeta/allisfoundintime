@@ -1,3 +1,27 @@
+a {
+  color: #44878F;
+}
+
+a:hover {
+  color: #3d7980;
+  text-decoration: none;
+}
+
+.bg-primary {
+  background-color: #44878F !important;
+}
+
+a.bg-primary:hover, a.bg-primary:focus,
+button.bg-primary:hover,
+button.bg-primary:focus {
+  background-color: #44878F !important;
+}
+
+.footnotes {
+  background-color: #3d7980;
+  color: #FCFCFC;
+}
+
 .sidebar {
   position: fixed;
   top: 0;
@@ -57,4 +81,8 @@
     padding-left: 0 !important;
     text-align: center;
   }
+}
+
+ol {
+  padding-left: 0;
 }
