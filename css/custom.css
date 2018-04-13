@@ -78,16 +78,13 @@ button.bg-primary:focus {
   }
 }
 
-ol {
-  padding-left: 0;
-}
-
 /* Navbar for article pages */
 
 .navbar-article {
   padding: 0;
   background-color: #57514F;
   color: #FCFCFC;
+  border-bottom: 1px solid #504a48;
 }
 
 .navbar-article-back {
@@ -121,12 +118,59 @@ ol {
   opacity: 0.8;
 }
 
+/* Article content */
 
-
-
-
-
-.footnotes {
-  background-color: #3d7980;
-  color: #FCFCFC;
+.article {
+  max-width: 85% !important;
 }
+
+/* References */
+
+.references {
+  background-color: #57514f;
+  color: #FCFCFC;
+  border-top: 1px solid #504a48;
+}
+
+.references h2 {
+  opacity: 0.8;
+}
+
+.references ol {
+  list-style: none;
+  counter-reset: list;
+  padding-left: 3px;
+}
+
+.references ol li:before {
+  content: counter(list);
+  margin-right: 10px;
+  position: absolute;
+  right: 100%;
+  font-style: italic; 
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.references ol li {
+  counter-increment: list;
+  position: relative;
+  opacity: 0.8;
+}
+
+.references ol li p {
+  padding-left: 10px; 
+  font-size: 0.9rem; 
+  font-style: normal; 
+  margin-bottom: 0; 
+  border-left: 1px solid #dbdada; 
+}
+
+.references ol li p em {
+  display: block;
+}
+
+
+
+
+
