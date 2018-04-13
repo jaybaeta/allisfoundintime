@@ -101,8 +101,12 @@ ol {
   background-color: #504a48;
 }
 
-.navbar-article-back:active {
+.navbar-article-back:active, .navbar-article-back:focus {
   background-color: #423c3a;
+}
+
+.navbar-article-back > a:active, .navbar-article-back > a:focus {
+    outline: none;
 }
 
 .navbar-article .nav-link {
