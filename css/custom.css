@@ -82,18 +82,45 @@ ol {
   padding-left: 0;
 }
 
+/* Navbar for article pages */
+
 .navbar-article {
-  background-color: #3d7980;
+  padding: 0;
+  background-color: #57514F;
   color: #FCFCFC;
+}
+
+.navbar-article-back {
+  border-right: 1px solid #504a48; 
+  background-color: #68615f;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.navbar-article-back:hover {
+  background-color: #504a48;
+}
+
+.navbar-article-back:active {
+  background-color: #423c3a;
 }
 
 .navbar-article .nav-link {
   color: #fcfcfc;
 }
 
-.navbar-article .nav-link:hover {
-  opacity: 0.6;
+.navbar-article .active {
+  opacity: 0.8;
 }
+
+.navbar-article .active:hover {
+  opacity: 0.8;
+}
+
+
+
+
+
 
 .footnotes {
   background-color: #3d7980;
