@@ -1,5 +1,92 @@
+/* Colours */
+
+body {
+  background-color: #fcfcfc;
+}
+
+.img-thumbnail {
+  background-color: #fcfcfc;
+}
+
+.table .table {
+  background-color: #fcfcfc;
+}
+
+.form-control {
+  background-color: #fcfcfc;
+}
+
+.form-control:focus {
+  background-color: #fcfcfc;
+}
+
+.dropdown-menu {
+  background-color: #fcfcfc;
+}
+
+.custom-select:focus::-ms-value {
+  background-color: #fcfcfc;
+}
+
+.custom-file-label {
+  background-color: #fcfcfc;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  background-color: #fcfcfc;
+  border-color: #dee2e6 #dee2e6 #fcfcfc;
+}
+
+.card {
+  background-color: #fcfcfc;
+}
+
+.page-link {
+  background-color: #fcfcfc;
+}
+
+.page-item.disabled .page-link {
+  background-color: #fcfcfc;
+}
+
+.list-group-item {
+  background-color: #fcfcfc;
+}
+
+.list-group-item.disabled, .list-group-item:disabled {
+  background-color: #fcfcfc;
+}
+
+.modal-content {
+  background-color: #fcfcfc;
+}
+
+.popover {
+  background-color: #fcfcfc;
+}
+
+.carousel-indicators .active {
+  background-color: #fcfcfc;
+}
+
+.bg-white {
+  background-color: #fcfcfc !important;
+}
+
+.bg-primary {
+  background-color: #44878F !important;
+}
+
+a.bg-primary:hover, a.bg-primary:focus, button.bg-primary:hover, button.bg-primary:focus {
+  background-color: #44878F !important;
+}
+
+/* Typography */
+
 a {
   color: #44878F;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 a:hover {
@@ -7,15 +94,7 @@ a:hover {
   text-decoration: none;
 }
 
-.bg-primary {
-  background-color: #44878F !important;
-}
-
-a.bg-primary:hover, a.bg-primary:focus,
-button.bg-primary:hover,
-button.bg-primary:focus {
-  background-color: #44878F !important;
-}
+/* Sidebar */
 
 .sidebar {
   position: fixed;
@@ -144,7 +223,7 @@ button.bg-primary:focus {
 
 .references ol li:before {
   content: counter(list);
-  margin-right: 10px;
+  margin-right: 15px;
   position: absolute;
   right: 100%;
   font-style: italic; 
@@ -159,16 +238,29 @@ button.bg-primary:focus {
 }
 
 .references ol li p {
-  padding-left: 10px; 
+  padding-left: 0px; 
   font-size: 0.9rem; 
-  font-style: normal; 
-  margin-bottom: 0; 
-  border-left: 1px solid #dbdada; 
+  font-style: normal;
+  margin-bottom: 0;
+  margin-left: -1px;
 }
 
 .references ol li p em {
   display: block;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
