@@ -249,7 +249,23 @@ a:hover {
   display: block;
 }
 
+/* Buttons */
 
+.btn-primary {
+  color: #fcfcfc;
+  background-color: #44878f;
+  border-color: #44878f;
+}
+
+.btn-primary:hover {
+  color: #fcfcfc;
+  background-color: #69a8b0;
+  border-color: #69a8b0;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
 
 
 
