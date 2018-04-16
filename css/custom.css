@@ -157,6 +157,21 @@ a:hover {
   }
 }
 
+/* Article images */
+
+.img-article-header {
+  height: 250px;
+  overflow: hidden;
+  box-shadow: inset 0 0 50px 20px #000000; 
+  opacity: 0.85;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.img-article-header:hover {
+  opacity: 1;
+}
+
 /* Navbar for article pages */
 
 .navbar-article {
