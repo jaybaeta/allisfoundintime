@@ -232,11 +232,11 @@ a:active, a:focus {
   display: none;
 }
 
-.dropdown.show .active i {
+/*.dropdown.show .active i {
   transform: rotate(180deg);
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
-}
+}*/
 
 .navbar-article .dropdown-item {
   color: #dbdada;
