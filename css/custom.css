@@ -278,12 +278,14 @@ a:active, a:focus {
 
 .references ol li:before {
   content: counter(list);
-  margin-right: 15px;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
   position: absolute;
   right: 100%;
   font-style: italic; 
   font-size: 0.9rem;
   font-weight: bold;
+  line-height: 1.25;
 }
 
 .references ol li {
@@ -296,8 +298,17 @@ a:active, a:focus {
   padding-left: 0px; 
   font-size: 0.9rem; 
   font-style: normal;
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
   margin-left: -1px;
+  line-height: 1.25;
+}
+
+.references ol li p a {
+  color: #bab7b6;
+}
+
+.references ol li p a:hover {
+  color: #dbdada;
 }
 
 .references ol li p em {
