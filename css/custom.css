@@ -255,7 +255,37 @@ a:active, a:focus {
 /* Article content */
 
 .article {
-  max-width: 85% !important;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.article-footer-left {
+  padding: 20px 10%; 
+}
+
+.article-footer-right {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.article-footer-right > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .article-footer-left {
+    padding-right: 15px;
+  }
+
+  .article-footer-right {
+    padding-left: 15px;
+  }
+
+  .article-footer-right > img {
+    height: 100%;
+  }
 }
 
 /* References */
