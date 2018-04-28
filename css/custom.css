@@ -230,8 +230,13 @@ a:active, a:focus {
   color: #dbdada;
 }
 
+.navbar-article .navbar-text {
+  padding: 0.5rem;
+  color: #bab7b6 !important;
+}
+
 .navbar-article .active {
-  color: #dbdada;
+  color: #dbdada !important;
 }
 
 .navbar-article .active:hover, .navbar-article .active:active {

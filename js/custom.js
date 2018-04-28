@@ -4,26 +4,45 @@ $('.dropdown-chevron').on('click', function() {
   $(this).find('.fas').toggleClass('dropdown-chevron-up dropdown-chevron-down');
 });
 
-$('#dropdown-animate').on('hide.bs.dropdown', function (e) {
+$('.article-list-animate').on('hide.bs.dropdown', function (e) {
   var i = $(e.relatedTarget).find('.fas');
   i.removeClass('dropdown-chevron-down').addClass('dropdown-chevron-up');
 });
 
-// Flip in dropdown using animate.css
+// Flip dropdown of article list using animate.css
 
-$('#dropdown-animate').on('show.bs.dropdown', function () {
-  $('.dropdown-menu').addClass('animated flipInX').one('animationend oAnimationEnd mozAnimationEnd webkitAnimationEnd',
+$('.article-list-animate').on('show.bs.dropdown', function () {
+  $('.article-list-menu-animate').addClass('animated flipInX').one('animationend oAnimationEnd mozAnimationEnd webkitAnimationEnd',
   	function() {
   		$(this).removeClass('animated flipInX');
   	});
 });
 
-$('#dropdown-animate').on('hide.bs.dropdown', function (e) {
+$('.article-list-animate').on('hide.bs.dropdown', function (e) {
 	e.preventDefault();
-  	$('.dropdown-menu').addClass('animated flipOutX').one('animationend oAnimationEnd mozAnimationEnd webkitAnimationEnd',
+  	$('.article-list-menu-animate').addClass('animated flipOutX').one('animationend oAnimationEnd mozAnimationEnd webkitAnimationEnd',
   	function() {
   		$(this).removeClass('show animated flipOutX');
-  		$('.dropdown').removeClass('show');
+  		$('.article-list-animate').removeClass('show');
   	});
+});
+
+
+// Flip dropdown of language menu using animate.css
+
+$('.language-animate').on('show.bs.dropdown', function () {
+  $('.language-menu-animate').addClass('animated flipInX').one('animationend oAnimationEnd mozAnimationEnd webkitAnimationEnd',
+    function() {
+      $(this).removeClass('animated flipInX');
+    });
+});
+
+$('.language-animate').on('hide.bs.dropdown', function (e) {
+  e.preventDefault();
+    $('.language-menu-animate').addClass('animated flipOutX').one('animationend oAnimationEnd mozAnimationEnd webkitAnimationEnd',
+    function() {
+      $(this).removeClass('show animated flipOutX');
+      $('.language-animate').removeClass('show');
+    });
 });
 
