@@ -203,27 +203,45 @@ a:active, a:focus {
   color: #fcfcfc !important;
 }
 
+.navbar-article-forward {
+  background-color: #68615f;
+  border-left: 1px solid #504a48; 
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.navbar-article-forward:hover {
+  background-color: #504a48;
+}
+
+.navbar-article-forward:active, .navbar-article-forward:focus {
+  background-color: #423c3a;
+}
+
+.navbar-article-forward > .nav-link {
+  color: #fcfcfc !important;
+}
+
 .navbar-article .nav-link {
-  color: #dbdada;
-}
-
-.navbar-article .nav-link:hover, .navbar-article .nav-link:active {
-  color: #fcfcfc;
-}
-
-.navbar-article .active {
   color: #bab7b6;
 }
 
-.navbar-article .active:hover, .navbar-article .active:active {
+.navbar-article .nav-link:hover, .navbar-article .nav-link:active {
   color: #dbdada;
+}
+
+.navbar-article .active {
+  color: #dbdada;
+}
+
+.navbar-article .active:hover, .navbar-article .active:active {
+  color: #fcfcfc;
 }
 
 .navbar-article .dropdown-menu {
   margin: 0.5rem 0 0 0;
   color: #dbdada;
   background-color: #57514f;
-
   border: 1px solid #504a48;
   border-radius: 0.3rem;
 }
@@ -232,23 +250,26 @@ a:active, a:focus {
   display: none;
 }
 
-/*.dropdown.show .active i {
+.dropdown-chevron-down { /* Rotate chevron when opening dropdown */
   transform: rotate(180deg);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-}*/
+  transition: all 0.7s ease;
+}
+
+.dropdown-chevron-up { /* Rotate chevron when opening dropdown */
+  transition: all 0.7s ease;
+}
 
 .navbar-article .dropdown-item {
-  color: #dbdada;
+  color: #bab7b6;
 }
 
 .navbar-article .dropdown-item:hover, .navbar-article .dropdown-item:focus {
     color: #dbdada;
-    background-color: #504a48;
+    background-color: transparent;
 }
 
 .navbar-article .dropdown-item.active, .navbar-article .dropdown-item:active {
-  color: #bab7b6;
+  color: #dbdada;
   background-color: #57514f;
 }
 
@@ -257,6 +278,12 @@ a:active, a:focus {
 .article {
   padding-left: 10%;
   padding-right: 10%;
+}
+
+/* Article footer */
+
+.article-footer {
+  background-color: #f5f1f1
 }
 
 .article-footer-left {

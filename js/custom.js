@@ -1,39 +1,29 @@
-// $('.dropdown-toggle').addClass(flipInX)
-//   .one(animation_end, function(){ 
-//     $(this).removeClass(flipinX);
-//   });
+// Rotate chevron when opening dropdown
 
+$('.dropdown-chevron').on('click', function() {
+  $(this).find('.fas').toggleClass('dropdown-chevron-up dropdown-chevron-down');
+});
 
+$('#dropdown-animate').on('hide.bs.dropdown', function (e) {
+  var i = $(e.relatedTarget).find('.fas');
+  i.removeClass('dropdown-chevron-down').addClass('dropdown-chevron-up');
+});
 
+// Flip in dropdown using animate.css
 
-//   $(function() {
-//     $('.dropdown-toggle').hover(function() {
-//         $('.dropdown').addClass('open');
-//         $('.dropdown-menu').addClass('animated flipInX');
+$('#dropdown-animate').on('show.bs.dropdown', function () {
+  $('.dropdown-menu').addClass('animated flipInX').one('animationend oAnimationEnd mozAnimationEnd webkitAnimationEnd',
+  	function() {
+  		$(this).removeClass('animated flipInX');
+  	});
+});
 
-//     });
-//     $('.dropdown').on('hide.bs.dropdown', function () {
-//         $('.dropdown-menu').removeClass('animated flipOutX');
-//     });
-// });
-
-
-
-//   function animationClick(element, animation){
-//   element = $(element);
-//   element.click(
-//     function() {
-//       element.addClass('animated ' + animation);
-//       //wait for animation to finish before removing classes
-//       window.setTimeout( function(){
-//           element.removeClass('animated ' + animation);
-//       }, 2000);
-//     }
-//   );
-// };
-
-
-$(".dropdown-toggle").click(function() {
-  $('.dropdown-menu').toggleClass('animated flipInX');
+$('#dropdown-animate').on('hide.bs.dropdown', function (e) {
+	e.preventDefault();
+  	$('.dropdown-menu').addClass('animated flipOutX').one('animationend oAnimationEnd mozAnimationEnd webkitAnimationEnd',
+  	function() {
+  		$(this).removeClass('show animated flipOutX');
+  		$('.dropdown').removeClass('show');
+  	});
 });
 
