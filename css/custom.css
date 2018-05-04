@@ -285,6 +285,15 @@ a:active, a:focus {
   padding-right: 10%;
 }
 
+.article h1, .article h2 {
+    font-weight: 300;
+}
+
+.article h2 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.5rem;
+}
+
 /* Article footer */
 
 .article-footer {
