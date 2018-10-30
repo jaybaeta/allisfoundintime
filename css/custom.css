@@ -294,6 +294,24 @@ a:active, a:focus {
   padding-bottom: 0.5rem;
 }
 
+/* Blockquotes */
+
+.blockquote {
+  padding: 1rem;
+  border-left: 1px solid #44878f;
+}
+
+.blockquote > p {
+  color: #44878f;
+  font-weight: 300;
+}
+
+/* Figures */
+
+.figure-caption {
+  line-height: 1.15;
+}
+
 /* Article footer */
 
 .article-footer {
