@@ -1,0 +1,41 @@
+
+
+.card-title {
+	font-family: 'Pompiere', cursive;
+	font-size: 2rem;
+	text-align: center;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.btn-warning:disabled {
+	border-color: #f07530;
+	background-color: #f07530;
+	opacity: 1;
+	color: #fcfcfc;
+}
+
+
+.btn-outline-warning {
+	border-color: #f07530;
+	color: #f07530;
+}
+
+
+.btn-outline-warning:hover {
+	border-color: #f07530;
+	background-color: #f07530;
+	color: #fcfcfc;
+}
+
+.card-text a {
+	color: #212529;
+	text-decoration: none;
+	border-bottom: 2px solid #f07530;
+}
+
+.card-text a:hover, .card-text a:active {
+	color: #212529;
+	text-decoration: none;
+	border-bottom: 2px solid #f0c347;
+}
