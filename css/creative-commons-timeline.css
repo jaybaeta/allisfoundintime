@@ -1,4 +1,35 @@
+.timeline-title {
+	line-height: 1.5;
+}
 
+.timeline-title-cc {
+    font-size: 6rem;
+    font-family: 'Sacramento', cursive; 
+    color: #f07530;
+}
+
+@media (max-width: 937px) {
+	.timeline-title-cc {
+    font-size: 5rem;
+    }
+}
+
+@media (max-width: 781px) {
+	.timeline-title-cc {
+    font-size: 4.5rem;
+    }
+}
+
+@media (max-width: 704px) {
+    .timeline-title {
+        line-height: 1.33;
+    }
+
+	.timeline-title-cc {
+        font-size: 4rem;
+        line-height: 1;
+    }
+}
 
 .card-title {
 	font-family: 'Pompiere', cursive;
