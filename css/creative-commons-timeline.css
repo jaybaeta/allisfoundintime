@@ -1,3 +1,90 @@
+@media (min-width: 768px) {
+  .timeline-left::before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    top: calc(50% + 2px);
+    width: 150px;
+    height: 1px;
+    background: #f0c347;
+  }
+
+  .timeline-left::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background: #f0c347;
+  }
+
+  .timeline-right::before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: calc(50% + 2px);
+    width: 150px;
+    height: 1px;
+    background: #f0c347;
+  }
+
+  .timeline-right::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    left: -1px;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background: #f0c347;
+  }
+
+  .timeline-left-empty::before {
+    content: "";
+    z-index: 99999;
+    position: absolute;
+    right: 1px;
+    top: calc(50% - 5px);
+    width: 15px;
+    height: 15px;
+    transform: translateX(50%);
+    border-radius: 2px;
+    background: #fcfcfc;
+    border: 1px solid #f0c347;
+  }
+
+  .timeline-right-empty::before {
+    content: "";
+    z-index: 99999;
+    position: absolute;
+    left: -16px;
+    top: calc(50% - 5px);
+    width: 15px;
+    height: 15px;
+    transform: translateX(50%);
+    border-radius: 2px;
+    background: #fcfcfc;
+    border: 1px solid #f0c347;
+  }
+}
+
+@media (max-width: 767px) {
+  .timeline-md::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background: #f0c347;
+  }
+}
+
 .timeline-title {
 	line-height: 1.5;
 }
@@ -105,4 +192,31 @@
 	color: #fcfcfc;
 	text-decoration: none;
 	border-bottom: 2px solid #f0c347;
+}
+
+.end-quote {
+	display: flex;
+	align-items: end;
+}
+
+.end-quote-text {
+	font-size: 2.75rem; 
+	font-family: 'Pompiere', cursive; 
+	line-height: 1.25;
+}
+
+@media (max-width: 1068px) {
+	.end-quote {
+		align-items: center;
+	}
+
+	.end-quote-text {
+		font-size: 2.25rem;
+	}
+}
+
+@media (max-width: 416px) {
+	.end-quote-text {
+		font-size: 2rem;
+	}
 }
