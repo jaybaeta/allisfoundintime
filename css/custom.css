@@ -81,6 +81,10 @@ a.bg-primary:hover, a.bg-primary:focus, button.bg-primary:hover, button.bg-prima
   background-color: #44878F !important;
 }
 
+.text-white {
+  color: #fcfcfc !important;
+}
+
 /* Typography */
 
 a {
@@ -96,6 +100,26 @@ a:hover {
 
 a:active, a:focus {
     outline: none;
+}
+
+a.underline-bg-primary  {
+  color: #fcfcfc;
+  text-decoration: none;
+  border-bottom: 2px solid #a1d0d5;
+}
+
+a.underline-bg-primary:hover, a.underline-bg-primary:active {
+  color: #fcfcfc;
+  text-decoration: none;
+  border-bottom: 2px solid #fcfcfc;
+}
+
+a.bg-primary  {
+  color: #a1d0d5;
+}
+
+a.bg-primary:hover, a.bg-primary:active {
+  color: #fcfcfc;
 }
 
 /* Sidebar */
