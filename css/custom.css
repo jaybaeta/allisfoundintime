@@ -87,6 +87,16 @@ a.bg-primary:hover, a.bg-primary:focus, button.bg-primary:hover, button.bg-prima
 
 /* Typography */
 
+body {
+  font-family: 'Assistant', 'Source Sans Pro', sans-serif;
+  font-size: 1.05rem;
+}
+
+h1 {
+  font-family: 'Ruluko', sans-serif;
+  font-weight: 300;
+}
+
 a {
   color: #44878F;
   -webkit-transition: .3s ease-in-out;
