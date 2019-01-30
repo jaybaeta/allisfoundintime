@@ -5,13 +5,14 @@
 a.underline-purple  {
   color: inherit;
   text-decoration: none;
-  border-bottom: 2px solid #8e8ea0;
+  border-bottom: 0px solid #aeaebb;
+  transition: cubic-bezier(.45,.05,.55,.95) 0.15s;
 }
 
 a.underline-purple:hover  {
   color: inherit;
   text-decoration: none;
-  border-bottom: 2px solid #494966;
+  border-bottom: 2px solid #73738A;
 }
 
 a.underline-plum  {
