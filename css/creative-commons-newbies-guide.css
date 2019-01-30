@@ -5,38 +5,49 @@
 a.underline-purple  {
   color: inherit;
   text-decoration: none;
-  border-bottom: 0px solid #aeaebb;
-  transition: cubic-bezier(.45,.05,.55,.95) 0.15s;
+  border-bottom: 2px solid #ceced5;
 }
 
 a.underline-purple:hover  {
   color: inherit;
   text-decoration: none;
-  border-bottom: 2px solid #73738A;
+  border-bottom: 2px solid #a1a1b0;
 }
 
 a.underline-plum  {
   color: inherit;
   text-decoration: none;
-  border-bottom: 2px solid #c28f9a;
+  border-bottom: 2px solid #e0c4cc;
 }
 
 a.underline-plum:hover  {
   color: inherit;
   text-decoration: none;
-  border-bottom: 2px solid #8e203f;
+  border-bottom: 2px solid #c48d9c;
 }
 
 a.underline-grape  {
   color: inherit;
   text-decoration: none;
-  border-bottom: 2px solid #cabdc2;
+  border-bottom: 2px solid #d5cbcf;
 }
 
 a.underline-grape:hover  {
   color: inherit;
   text-decoration: none;
-  border-bottom: 2px solid #9a808a;
+  border-bottom: 2px solid #af9ba2;
+}
+
+a.underline-strawberry {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 2px solid #ebd1d8;
+}
+
+a.underline-strawberry:hover {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 2px solid #dba8b4;
 }
 
 a.underline-grey {
