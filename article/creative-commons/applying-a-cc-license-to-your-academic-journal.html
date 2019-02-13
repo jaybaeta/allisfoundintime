@@ -111,7 +111,7 @@
 
           <p>Traditional copyright is incompatible with open access, which by the <a href="https://www.budapestopenaccessinitiative.org/boai-10-recommendations">Budapest Open Access Initiative's definition</a> is, in the realm of academic publishing, content that is freely available on the internet and permits users to:
 
-          <div class="card my-4" style="background-color: #0b486b; color: #fcfcfc; border: 3px solid #0b486b; border-radius: 10px 30px;">
+          <div class="card my-4" style="background-color: #0b486b; color: #e7d9b4; border: 3px solid #0b486b; border-radius: 10px 30px;">
             <div class="card-body p-4">
               <p class="card-text" style="font-size: 1.265rem;">[R]ead, download, copy, distribute, print, search, or link to the full texts of these articles, crawl them for indexing, pass them as data to software, or use them for any other lawful purpose, without financial, legal, or technical barriers other than those inseparable from gaining access to the internet itself.</p>
             </div>
@@ -121,7 +121,7 @@
 
           <div class="card mt-3 mb-4 my-lg-4 ml-md-5 w-md-40 float-right" style="background-color: transparent; border: 3px solid #0b486b; border-radius: 30px 10px;">
             <div class="card-header" style="background-color: #0b486b; border-radius: 24px 5px 30px 0;">
-              <h3 style="font-family: 'Alice'; text-align: center; color: #fcfcfc; margin-bottom: 0; font-size: 1.25rem;">A primer on Creative Commons licenses</h3>
+              <h3 style="font-family: 'Alice'; text-align: center; color: #e7d9b4; margin-bottom: 0; font-size: 1.25rem;">A primer on Creative Commons licenses</h3>
             </div>
             <div class="card-body">
               <h4 style="font-family: 'Alice'; text-align: center; font-size: 1.25rem;">What are CC licenses?</h4>
@@ -263,7 +263,38 @@
 <p>The CC Public Domain Mark takes the “no known copyright” approach, referring to works that are no longer restricted by copyright. Articles that fall under this category will be those that were published a very long time ago (probably before you were born), whose copyright has lapsed.</p>
 
 
-<hr style="margin: 3rem auto 0; width: 200px; border-top: 3px solid #0b486b;">
+          <div class="card mt-3 mb-4 my-lg-4" style="background-color: transparent; border: 3px solid #0b486b; border-radius: 10px 30px;">
+            <div class="card-header" style="background-color: #0b486b; border-radius: 5px 23px 0 30px;">
+              <h3 style="font-family: 'Alice'; text-align: center; color: #e7d9b4; margin-bottom: 0; font-size: 1.25rem;">Ready to get your license?</h3>
+            </div>
+            <div class="card-body">    
+
+              
+
+
+<div class="row">
+  <div class="col-md-5 text-center">
+    <p class="card-text">Use the Creative Commons license chooser to get your license. With this tool, you will automatically be given the code to paste alongside your content.</p>
+
+    <a class="btn btn-outline-primary" href="https://creativecommons.org/choose" role="button"><i class="fab fa-creative-commons" style="padding-right: 7px; opacity: 0.9"></i>CC license chooser</a>
+  </div>
+  <div class="col-md-2 align-self-center">
+    <h4 class="py-4" style="font-family: 'Alice'; text-align: center; font-size: 2.5rem; color: #0b486b;">OR</h4>
+  </div>
+  <div class="col-md-5 text-center">
+
+<p class="card-text">Still not sure about which license is best for your journal? Play our little non-interactive adventure game and learn more about CC licenses.</p>
+
+
+    <a class="btn btn-outline-primary" href="choose-your-adventure.html" role="button"><i class="fas fa-khanda" style="padding-right: 7px; opacity: 0.9"></i>Choose your adventure</a>
+  </div>
+</div>
+
+
+              
+            </div>
+          </div>
+
 
 
             <div class="row notes">
@@ -298,6 +329,40 @@
       a:hover, a:active {
         color: #212529;
         text-decoration: none;
+      }
+
+      .btn-outline-primary {
+        color: #0B486B;
+        border: 2px solid #0B486B99;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 1.3rem;
+      }
+
+      .btn-outline-primary:hover {
+        color: #e7d9b4;
+        background-color: #0B486B;
+        border-color: #0B486B;
+      }
+
+      .btn-outline-primary:focus, .btn-outline-primary.focus {
+        box-shadow: 0 0 0 0.2rem rgba(11, 72, 107, 0.5);
+      }
+
+      .btn-outline-primary.disabled, .btn-outline-primary:disabled {
+        color: #0B486B;
+        background-color: transparent;
+      }
+
+      .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
+      .show > .btn-outline-primary.dropdown-toggle {
+        color: #e7d9b4;
+        background-color: #44878f;
+        border-color: #44878f;
+      }
+
+      .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+      .show > .btn-outline-primary.dropdown-toggle:focus {
+        box-shadow: 0 0 0 0.2rem rgba(11, 72, 107, 0.5);
       }
 
       .mono {
