@@ -224,29 +224,25 @@ a.bg-primary:hover, a.bg-primary:active {
 }
 
 .img-article-thumbnail {
-  background-color: #44878f;
-  box-shadow: inset 0 0 50px 20px #000000;
+  background-image: radial-gradient(#44878f, #fcfcfc);
   padding: 0;
   overflow: hidden;
 }
 
 .img-article-thumbnail img {
   background-size: cover;
-  opacity: 0.75;
+  opacity: 0.8;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
-
-
   object-fit: cover;
   object-position: center;
-    width: 100%;
+  width: 100%;
   min-height: 100%;
 }
 
 .img-article-thumbnail img:hover {
   opacity: 1;
 }
-
 
 /* Navbar for article pages */
 
