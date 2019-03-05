@@ -22,78 +22,35 @@
   </head>
 
   <body>
-    <div class="container-fluid">
+  
+    <main role="main" class="container-fluid">
       <div class="row">
-        <nav class="col-md-3 col-lg-2 d-md-block bg-primary sidebar-sm" style="height: 408px;">
-          <div class="row"> <!-- Logo -->
-            <div class="col-12 text-center px-5 pt-4 pb-4">
-              <img src="../../images/logo/songbird.png" style="width: 100px">
-            </div>
-          </div>
-          <ul class="nav flex-column text-center"> <!-- Sidebar items -->
-            <li class="nav-item">
-              <a class="nav-link" href="../../index.html">
-                Home
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="../../articles.html">
-                Articles <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../../downloads.html">
-                Downloads
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../../about.html">
-                About
-              </a>
-            </li>
-          </ul>
-          <div class="row"> <!-- Buttons at bottom -->
-            <div class="col-12 text-center p-5 pb-5">
-                <a href="https://twitter.com/LellyBaeta"><i class="fab fa-twitter fa-fw fa-lg"></i></a> <a href="../../license.html"><i class="fab fa-creative-commons fa-fw fa-lg"></i></a>
-              </div>
-            </div>
-        </nav>
-
-        <div class="col-md-9 col-lg-10 d-none d-md-block ml-sm-auto p-0">
+        <div class="col-md-12 p-0">
           <nav class="navbar navbar-expand-sm navbar-article">  <!-- Article navigation -->
-            <ul class="navbar-nav">
-              <li class="nav-item navbar-article-back py-2 px-3"> <!-- Back button -->
-                <a class="nav-link" href="../creative-commons.html"><i class="fas fa-chevron-left"></i></a>
+            <ul class="navbar-nav mx-auto mt-5">
+              <li class="nav-item align-self-center">
+                <a class="nav-link" href="../../index.html"><img src="../../images/logo/songbird.png" class="logo"></a>
               </li>
-              <li class="nav-item py-2 px-3">
+              <li class="nav-item px-2 align-self-center">
                 <a class="nav-link" href="../creative-commons.html">Creative Commons</a>
               </li>
-              <li class="nav-item dropdown article-list-animate py-2 px-3"> 
+              <li class="nav-item dropdown article-list-animate pl-2 align-self-center text-center"> 
                 <a class="nav-link dropdown-toggle dropdown-chevron active" href="#" id="navbar-article-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   The newbie's guide to copyright &nbsp;<i class="fas fa-chevron-down dropdown-chevron-up fa-sm"></i>
                 </a>
                 <div class="dropdown-menu article-list-menu-animate" aria-labelledby="navbar-article-dropdown">
                   <a class="dropdown-item" href="birth-of-creative-commons.html">Birth of Creative Commons</a>
                   <a class="dropdown-item active" href="#">The newbie's guide to copyright</a>
+                  <a class="dropdown-item" href="applying-a-cc-license-to-your-academic-journal.html">Applying a Creative Commons license <br> to your academic journal</a>
+                  <a class="dropdown-item" href="choose-your-adventure.html">Choose your adventure</a>
+                  <a class="dropdown-item" href="to-be-or-not-to-be-derivative.html">To be or not to be derivative</a>
                 </div>
               </li>
             </ul>
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item navbar-article-back py-2 px-3"> <!-- Forward button -->
-                <a class="nav-link" href="newbies-guide-to-copyright.html"><i class="fas fa-chevron-right"></i></a>
-              </li>
-            </ul>
           </nav>
-          <div class="jumbotron jumbotron-fluid p-0" style="height: 350px; background: url('https://c2.staticflickr.com/8/7033/6772507389_f61f6eb05c_b.jpg') center bottom; background-size: cover; display: flex;">
-            <div class="container-fluid p-0 align-self-end">
-              <p class="figure-caption text-right text-white p-1 m-0" style="opacity: 0.8;">Image by LadyDragonflyCC - >;<; <a href="https://flic.kr/p/bjsSuM" style="color: #fcfcfc">https://flic.kr/p/bjsSuM</a>; <a href="https://creativecommons.org/licenses/by/2.0/" style="color: #fcfcfc">CC BY 2.0</a></p>
-            </div>
-          </div>
         </div>
       </div>
-    </div>
 
-    <main role="main" class="container-fluid">
       <div class="row py-5">
         <div class="col-12 article mx-auto py-5">
           <div class="row">
@@ -309,6 +266,54 @@
 
     <!-- Extra css -->
     <style type="text/css">
+      a .logo {
+        width: 75px;
+        opacity: 0.5;
+        transition: all ease-in-out 0.3s;
+      }
+
+      a .logo:hover {
+        opacity: 0.75;
+      }
+
+      .navbar-article {
+        background-color: transparent;
+        border-bottom: 0;
+      }
+
+      .navbar-article .nav-link {
+        color: #494966 !important;
+        opacity: 0.5;
+      }
+
+      .navbar-article .nav-link:hover {
+        color: #494966 !important;
+        opacity: 0.75;
+      }
+
+      .navbar-article .dropdown-menu {
+        color: #fcfcfc !important;
+        background-color: #783354;
+        border: 0;
+      }
+
+      .navbar-article .dropdown-item {
+        color: #fcfcfc;
+        opacity: 0.6;
+      }
+
+      .navbar-article .dropdown-item:hover, .navbar-article .dropdown-item:focus {
+        color: #fcfcfc;
+        opacity: 1;
+        background-color: transparent;
+      }
+
+      .navbar-article .dropdown-item.active, .navbar-article .dropdown-item:active {
+        color: #fcfcfc !important;
+        opacity: 1;
+        background-color: transparent;
+      }
+
       .card-title {
         font-family: 'Quicksand', sans-serif;
       }
