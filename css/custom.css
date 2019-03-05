@@ -317,7 +317,6 @@ a.bg-primary:hover, a.bg-primary:active {
   background-color: #57514f;
   border: 1px solid #504a48;
   border-radius: 0.3rem;
-  max-width: 98%;
 }
 
 .navbar-article .dropdown-toggle::after {
