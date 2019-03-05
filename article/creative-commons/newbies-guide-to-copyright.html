@@ -307,6 +307,136 @@
       </div>
     </main>
 
+    <!-- Extra css -->
+    <style type="text/css">
+      .card-title {
+        font-family: 'Quicksand', sans-serif;
+      }
+
+      a.underline-purple  {
+        color: inherit;
+        text-decoration: none;
+        border-bottom: 2px solid #ceced5;
+      }
+
+      a.underline-purple:hover  {
+        color: inherit;
+        text-decoration: none;
+        border-bottom: 2px solid #a1a1b0;
+      }
+
+      a.underline-plum  {
+        color: inherit;
+        text-decoration: none;
+        border-bottom: 2px solid #e0c4cc;
+      }
+
+      a.underline-plum:hover  {
+        color: inherit;
+        text-decoration: none;
+        border-bottom: 2px solid #c48d9c;
+      }
+
+      a.underline-grape  {
+        color: inherit;
+        text-decoration: none;
+        border-bottom: 2px solid #d5cbcf;
+      }
+
+      a.underline-grape:hover  {
+        color: inherit;
+        text-decoration: none;
+        border-bottom: 2px solid #af9ba2;
+      }
+
+      a.underline-strawberry {
+        color: inherit;
+        text-decoration: none;
+        border-bottom: 2px solid #ebd1d8;
+      }
+
+      a.underline-strawberry:hover {
+        color: inherit;
+        text-decoration: none;
+        border-bottom: 2px solid #dba8b4;
+      }
+
+      a.underline-grey {
+        color: inherit;
+        text-decoration: none;
+        border-bottom: 2px solid #bebfc0;
+      }
+
+      a.underline-grey:hover  {
+        color: inherit;
+        text-decoration: none;
+        border-bottom: 2px solid #909294;
+      }
+
+      .blockquote {
+        border-left: none;
+        padding: 0;
+        font-size: 2rem;
+        font-size: 300;
+        line-height: 1.25;
+        color: #d16781;
+      }
+
+      .blockquote::before {
+        content: open-quote;
+        position: absolute;
+        font-size: 17.5rem;
+        color: #fcfcfc;
+        opacity: 0.1;
+        margin-top: -4rem;
+        left: 2rem;
+        font-weight: 700;
+      }
+
+      .blockquote::after {
+        content: close-quote;
+        z-index: -9999;
+        color: transparent;
+      }
+
+      ol.numbered-list {
+        list-style: none;
+        counter-reset: list;
+        padding-left: 16px;
+      }
+
+      ol.numbered-list li:before {
+        content: counter(list);
+        margin-right: 0.5rem;
+        margin-bottom: 0.3rem;
+        position: absolute;
+        right: 100%;
+        font-style: italic; 
+        font-weight: 900;
+        line-height: 1.25;
+        color: #fcfcfc;
+        opacity: 0.4;
+      }
+
+      ol.numbered-list li {
+        counter-increment: list;
+        position: relative;
+      }
+
+      ol.numbered-list li p {
+        padding-left: 0px; 
+        font-style: normal;
+        margin-bottom: 0.3rem;
+        margin-left: -1px;
+        line-height: 1.25;
+        color: #fcfcfc;
+      }
+
+      ol.numbered-list li p em {
+        display: block;
+      }
+    </style>
+
     <!-- Javascripts -->
     <script src="../../js/jquery-3.3.1.min.js"></script>
     <script src="../../js/popper.js"></script>
