@@ -127,6 +127,9 @@
 
                 <p>Nevertheless, most journal managers are not well-versed in Creative Commons, making them incapable of appropriately applying the licenses. Many are also wary of abandoning the traditional “all rights reserved” policy, for the fear of losing “ownership” of the articles they publish. Both of these shortcomings inevitably create problems when the time comes to choose or apply a license, the manifestations of which are unfortunately easy to find, most often after the license has been applied and is in use.</p>
 
+                <blockquote class="blockquote float-right w-50">Publishers will choose their license based on what other journals use
+                <span>&mdash;An unfortunately all-too-common problem</span></blockquote>
+
                 <p>The first such example is applying the license carelessly, choosing it without prior thought and without being able to justify choosing it, and often then failing to provide an explanation of the readers’ rights to use and reuse the content, or otherwise providing an incorrect explanation. Most of the time, these publishers will choose their license based on what other journals use. The second example is when the licensing statement contradicts the type of license chosen. And the third is contradicting the CC licensing terms because of confusion over copyright ownership, usually in the form of “this work is licensed under CC BY-[...], © [journal name]-All rights reserved”. In some cases, we even find this contradiction when the copyright policy states that authors retain copyright.</p>
 
                 <p>These problems stem from journal managers’ lack of understanding of the underlying ideas and objectives behind applying CC licenses to the articles they publish, and the prevailing belief that a journal must maintain its grip on the copyright of “its” articles. This resistance to the idea of letting the authors retain the copyright of their articles is built on the erroneous belief that applying CC licenses and allowing authors to retain copyright prevents a publisher from profiting from the journal.</p>
@@ -144,18 +147,6 @@
             </div>
             <div class="row references">
               <div class="col-12 article py-5 mx-auto">
-
-
-
-                <h2>Footnotes</h2>
-                <p>
-                  <ol>
-                    <li><p id="reference-1">Beall J. Criteria for Determining Predatory Open-Access Publishers. 2015 [accessed 2017 Dec 17]. <a href="https://beallslist.weebly.com/uploads/3/0/9/5/30958339/criteria-2015.pdf">https://beallslist.weebly.com/uploads/3/0/9/5/30958339/criteria-2015.pdf</a>.</p></li>
-                  </ol>
-                </p>
-
-
-
                 <h2>Credits</h2>
                 <p>
                   <ol>
@@ -191,6 +182,40 @@
 
       a.footer-license:hover {
           color: #dbdada;
+      }
+
+      .blockquote {
+        border-left: none;
+        padding: 0;
+        font-size: 2rem;
+        line-height: 1.25;
+        color: #7C989B;
+      }
+
+      .blockquote::before {
+        content: open-quote;
+        position: absolute;
+        font-size: 17.5rem;
+        color: #fcfcfc;
+        opacity: 0.1;
+        margin-top: -4rem;
+        left: 2rem;
+        font-weight: 700;
+      }
+
+      .blockquote::after {
+        content: close-quote;
+        z-index: -9999;
+        color: transparent;
+      }
+
+      .blockquote span {
+        border-left: none;
+        padding: 0;
+        font-size: 1rem;
+        font-size: 300;
+        
+        color: #6c757d;
       }
     </style>
 
