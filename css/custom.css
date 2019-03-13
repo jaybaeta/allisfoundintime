@@ -224,14 +224,14 @@ a.bg-primary:hover, a.bg-primary:active {
 }
 
 .img-article-thumbnail {
-  background-image: radial-gradient(#44878f, #fcfcfc);
+  background-image: radial-gradient(#44878f, #57514f);
   padding: 0;
   overflow: hidden;
 }
 
 .img-article-thumbnail img {
   background-size: cover;
-  opacity: 0.8;
+  opacity: 0.85;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
   object-fit: cover;
