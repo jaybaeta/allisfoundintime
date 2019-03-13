@@ -127,8 +127,8 @@
 
                 <p>Nevertheless, most journal managers are not well-versed in Creative Commons, making them incapable of appropriately applying the licenses. Many are also wary of abandoning the traditional “all rights reserved” policy, for the fear of losing “ownership” of the articles they publish. Both of these shortcomings inevitably create problems when the time comes to choose or apply a license, the manifestations of which are unfortunately easy to find, most often after the license has been applied and is in use.</p>
 
-                <blockquote class="blockquote float-right w-50">Publishers will choose their license based on what other journals use
-                <span>&mdash;An unfortunately all-too-common problem</span></blockquote>
+                <blockquote class="blockquote float-right w-50 mt-1 d-none d-md-block"><p class="mb-2">Publishers will choose their license based on what other journals use.</p>
+                <p class="blockquote-author">&mdash; An unfortunately all-too-common problem.</p></blockquote>
 
                 <p>The first such example is applying the license carelessly, choosing it without prior thought and without being able to justify choosing it, and often then failing to provide an explanation of the readers’ rights to use and reuse the content, or otherwise providing an incorrect explanation. Most of the time, these publishers will choose their license based on what other journals use. The second example is when the licensing statement contradicts the type of license chosen. And the third is contradicting the CC licensing terms because of confusion over copyright ownership, usually in the form of “this work is licensed under CC BY-[...], © [journal name]-All rights reserved”. In some cases, we even find this contradiction when the copyright policy states that authors retain copyright.</p>
 
@@ -185,37 +185,32 @@
       }
 
       .blockquote {
+        margin-left: 1.9rem;
         border-left: none;
-        padding: 0;
         font-size: 2rem;
         line-height: 1.25;
         color: #7C989B;
+        shape-outside: ellipse(127px 131px at 30% 30%);
       }
 
       .blockquote::before {
         content: open-quote;
         position: absolute;
         font-size: 17.5rem;
-        color: #fcfcfc;
-        opacity: 0.1;
+        color: #7C989B;
+        opacity: 0.075;
         margin-top: -4rem;
-        left: 2rem;
+        margin-left: -2rem;
         font-weight: 700;
       }
 
-      .blockquote::after {
-        content: close-quote;
-        z-index: -9999;
-        color: transparent;
-      }
-
-      .blockquote span {
+      p.blockquote-author {
         border-left: none;
         padding: 0;
+        margin-bottom: 0;
         font-size: 1rem;
-        font-size: 300;
-        
-        color: #6c757d;
+        text-align: center !important;
+        color: #777371;
       }
     </style>
 
