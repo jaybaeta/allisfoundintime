@@ -27,7 +27,6 @@ $('.article-list-animate').on('hide.bs.dropdown', function (e) {
   	});
 });
 
-
 // Flip dropdown of language menu using animate.css
 
 $('.language-animate').on('show.bs.dropdown', function () {
