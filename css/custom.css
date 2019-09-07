@@ -538,6 +538,24 @@ a.footer-license:hover {
   box-shadow: 0 0 0 0.2rem rgba(108, 178, 186, 0.5);
 }
 
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fcfcfc;
+  background-color: #44878f;
+  border-color: #44878f;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fcfcfc;
+  background-color: #44878f;
+  border-color: #44878f;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(108, 178, 186, 0.5);
+}
+
 .btn-outline-primary {
   color: #44878f;
   border-color: #44878f;
@@ -568,6 +586,28 @@ a.footer-license:hover {
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(108, 178, 186, 0.5);
+}
+
+.btn-bahasa-indonesia::before {
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
+  content: "\f1ab";
+  padding-right: 4px;
+}
+
+.btn-bahasa-indonesia::after {
+  content: 'Bahasa Indonesia';
+  transform: rotate(0.5turn);
+}
+
+.btn-bahasa-indonesia:hover::after {
+  content: 'Baca';
+  transform: rotate(0.5turn);
+}
+
+.btn-bahasa-indonesia {
+  min-width: 168px;
+  text-align: left;
 }
 
 /* 13. Article meta */
