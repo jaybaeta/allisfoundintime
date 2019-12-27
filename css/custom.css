@@ -12,6 +12,8 @@
    10...References
    11...Footer license
    12...Buttons
+   13...Article meta
+   14...Lectures page
 
    ============================== */
 
@@ -621,4 +623,12 @@ a.footer-license:hover {
   line-height: 1.5;
   color: #44878f;
   opacity: 0.6;
+}
+
+/* 14. Lectures page */
+
+.lectures h1 {
+  font-weight: 300;
+  font-family: 'Ruluko', sans-serif;
+  font-size: 1.7rem;
 }
