@@ -1,0 +1,850 @@
+<calculator><questions>
+	<step nr="0">
+		<type>multiplechoice</type>
+		<question>
+			<text>Into which of the following categories does the examined item fall? (1)</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>First fixation of a film (3)</value>
+			<gotoNr>1</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Phonogram (3)</value>
+			<gotoNr>19</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Literary or artistic work  (2)</value>
+			<gotoNr>24</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Broadcast (3)</value>
+			<gotoNr>15</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Performance (3)</value>
+			<gotoNr>16</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Unoriginal Database</value>
+			<gotoNr>8</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="1">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the film published or
+communicated to the
+public within 50 years from
+the fixation?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>2</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>5</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="2">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the film published
+orcommunicated to the
+public more than 50
+years ago?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>3</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>4</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="3">
+		<type>result</type>
+		<result>
+			<text>Public&lt;br/&gt;Domain</text>
+			<information></information>
+		</result>
+	</step>
+	<step nr="4">
+		<type>result</type>
+		<result>
+			<text>Still protected</text>
+			<information></information>
+		</result>
+	</step>
+	<step nr="5">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the film first
+fixated more than 50
+years ago?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>3</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>4</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="19">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the phonogram
+published within 50
+years of creation?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>No</value>
+			<gotoNr>21</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>20</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="21">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the phonogram
+communicated to the
+public within 50 years of
+creation?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>No</value>
+			<gotoNr>22</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>39</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="22">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the phonogram
+created more than 50
+years ago?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>3</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>4</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="39">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the phonogram
+communicated to the
+public more than 50
+years ago?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>3</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>4</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="20">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the phonogram
+published more than
+50 years ago?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>3</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>4</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="24">
+		<type>multiplechoice</type>
+		<question>
+			<text>What type of author does this
+work have?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Unknown</value>
+			<gotoNr>30</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Natural person</value>
+			<gotoNr>35</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Legal Entity</value>
+			<gotoNr>25</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="30">
+		<type>result</type>
+		<result>
+			<text>Orphan work</text>
+			<information></information>
+		</result>
+	</step>
+	<step nr="35">
+		<type>multiplechoice</type>
+		<question>
+			<text>What is the nationality or
+place of residence of the
+author?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>EEA</value>
+			<gotoNr>42</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Not EEA</value>
+			<gotoNr>36</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="42">
+		<type>multiplechoice</type>
+		<question>
+			<text>Is the work a
+collective work?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>No</value>
+			<gotoNr>44</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>27</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="44">
+		<type>multiplechoice</type>
+		<question>
+			<text>Has the work been
+made available to
+the public?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>45</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>43</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="45">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the work published
+within 70 years of the death
+of the last surviving author?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>43</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>46</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="43">
+		<type>multiplechoice</type>
+		<question>
+			<text>Did the last surviving
+author die more than
+70 years ago?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>23</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>29</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="23">
+		<type>result</type>
+		<result>
+			<text>Public Domain</text>
+			<information></information>
+		</result>
+	</step>
+	<step nr="29">
+		<type>result</type>
+		<result>
+			<text>Still&lt;br/&gt;protected</text>
+			<information></information>
+		</result>
+	</step>
+	<step nr="46">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the work
+published or
+communicated to the
+public more than 25
+years ago?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>23</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>29</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="27">
+		<type>multiplechoice</type>
+		<question>
+			<text>Has the work been
+make available to the
+public?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>No</value>
+			<gotoNr>32</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>31</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="32">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the work created
+more than 70 years
+ago?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>23</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>29</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="31">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the work
+published more than
+70 years after creation?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>No</value>
+			<gotoNr>33</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>34</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="33">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the work
+published more
+than 70 years ago?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>23</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>29</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="34">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the work
+published or
+communicated to the
+public more than 25
+years ago?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>23</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>29</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="36">
+		<type>multiplechoice</type>
+		<question>
+			<text>What is the country
+of origin of this
+work?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>EEA</value>
+			<gotoNr>42</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Not Berne TRIPS WCT</value>
+			<gotoNr>37</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Berne TRIPS WCT</value>
+			<gotoNr>38</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="37">
+		<type>multiplechoice</type>
+		<question>
+			<text>What is nationality or
+place of residence of the
+author?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Not Berne TRIPS WCT</value>
+			<gotoNr>23</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Berne TRIPS WCT</value>
+			<gotoNr>38</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="38">
+		<type>result</type>
+		<result>
+			<text>Rule of shorter term&lt;br/&gt;applies</text>
+			<information></information>
+		</result>
+	</step>
+	<step nr="25">
+		<type>multiplechoice</type>
+		<question>
+			<text>What is the nationality, place
+of residence or place of
+establishment of the
+author?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Not EEA</value>
+			<gotoNr>26</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>EEA</value>
+			<gotoNr>27</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="26">
+		<type>multiplechoice</type>
+		<question>
+			<text>What is the country of
+origin of this work?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>EEA</value>
+			<gotoNr>27</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Not Berne TRIPS WCT</value>
+			<gotoNr>28</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Berne TRIPS WCT</value>
+			<gotoNr>38</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="28">
+		<type>multiplechoice</type>
+		<question>
+			<text>What is nationality or
+place of residence or
+place of establishment
+of the author?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Not Berne TRIPS WCT</value>
+			<gotoNr>23</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Berne TRIPS WCT</value>
+			<gotoNr>38</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="15">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the
+programme first
+broadcast more
+than 50 years ago?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>3</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>4</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="16">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was a fixation of the performance
+published or communicated to the 
+public within 50 years from the date
+of the performance?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>17</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>18</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="17">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the fixation
+published or
+communicated to the
+public more than 50
+years ago?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>3</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>4</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="18">
+		<type>multiplechoice</type>
+		<question>
+			<text>Did the performance
+take place more than
+50 years ago?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>3</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>4</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="8">
+		<type>multiplechoice</type>
+		<question>
+			<text>Is the right holder a
+company or firm?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>No</value>
+			<gotoNr>6</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>9</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="6">
+		<type>multiplechoice</type>
+		<question>
+			<text>Of which countries is the
+right-holder a national or
+resident?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>EEA</value>
+			<gotoNr>7</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Not EEA</value>
+			<gotoNr>13</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="7">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the database
+made available to the
+public after its
+completion or last
+substantial change?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>No</value>
+			<gotoNr>41</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>40</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="41">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the database
+completed or
+sustantially
+changed within the
+last 15 years?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>No</value>
+			<gotoNr>13</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>14</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="13">
+		<type>result</type>
+		<result>
+			<text>Public Domain</text>
+			<information></information>
+		</result>
+	</step>
+	<step nr="14">
+		<type>result</type>
+		<result>
+			<text>Still protected</text>
+			<information></information>
+		</result>
+	</step>
+	<step nr="40">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the database
+made available to the
+public in the last 15
+years?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>No</value>
+			<gotoNr>13</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>14</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="9">
+		<type>multiplechoice</type>
+		<question>
+			<text>According to the law of
+which country was it
+formed?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>EEA</value>
+			<gotoNr>10</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Not EEA</value>
+			<gotoNr>11</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="10">
+		<type>multiplechoice</type>
+		<question>
+			<text>In which country does it have its
+registered office, central
+administration, or principal
+place of business?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>EEA</value>
+			<gotoNr>7</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Not EEA</value>
+			<gotoNr>13</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="11">
+		<type>multiplechoice</type>
+		<question>
+			<text>In which country does
+it have its registered
+office?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Not EEA</value>
+			<gotoNr>13</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>EEA</value>
+			<gotoNr>12</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="12">
+		<type>multiplechoice</type>
+		<question>
+			<text>Are its operations
+genuinely linked on an
+ongoing basis with the
+economy of an EEA state?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>EEA</value>
+			<gotoNr>7</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Not EEA</value>
+			<gotoNr>13</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+</questions><dataSchema>
+</dataSchema></calculator>

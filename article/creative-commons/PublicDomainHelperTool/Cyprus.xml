@@ -1,0 +1,800 @@
+<calculator><questions>
+	<step nr="0">
+		<type>multiplechoice</type>
+		<question>
+			<text>Into which of the following
+categories does the
+examined item fall?</text>
+			<information>Please note that a single item might be protected by multiple layers of rights. For example, a CD will often comprise four layers of rights: if it contains music, that may be covered by copyright; any lyrics accompanying the music may also qualify for copyright protection, while the performers (musicians and singers or any other performer) as well as the phonogram producer may be protected by related rights. Similarly, a book may consist of text and illustrations, both of which may be protected by copyright. If an illustration is a photograph of a painting, a third layer of protection may be added. The term of protection of all relevant rights should be examined in order to determine whether the item as a whole is in the Public Domain or not. Please make sure you correctly identify and apply the Public Domain Helper Tool to all subject matter that qualifies for protection.
+
+To this end, please also keep in mind that in accordance with Cypriot law and for the purposes of this Public Domain Helper Tool:
+
+•	A volume, part, instalment, issue or episode of a work shall be treated as if they are whole independent works. The Public Domain Helper Tool should accordingly be applied to each of these individually.
+
+•	If a work has been created by the collaboration of two or more persons and if the contributions of these persons are inseparable, it is a work of joint authorship. The Public Domain Helper Tool should accordingly be applied to the work as a whole, but not to the individual contributions. 
+
+•	Individual items included in an (original or unoriginal) database may be independently protected. In this case, the Public Domain Helper Tool should also be applied to each of these individually.</information>
+		</question>
+		<answer>
+			<value>Literary or artistic work</value>
+			<gotoNr>21</gotoNr>
+			<information>In order to determine whether a work is a work of copyright or not, please consult the following list. Please keep in mind that this list is only intended to be indicative and should not be understood as being either exhaustive or binding. Subject matter which does not seem to comfortably fall into any of these categories may nonetheless be protected by copyright and subject matter which does fall into these categories may not qualify for protection, subject to the provisions of Cypriot law. 
+
+LITERARY OR ARTISTIC WORKS
+	
+•	LITERARY WORKS, such as texts of books, pamphlets, lectures, addresses, sermons, poems, computer programmes, etc.
+
+•	ARTISTIC WORKS, such as works of drawing, painting, sculpture, engraving and lithography, sketches, sculptures, works of applied art, illustrations, original photographs, works expressed by a process analogous to photography, etc.
+
+•	MUSICAL WORKS. This includes any musical composition with or without words, whether fixed in musical notation or other writing or not.
+
+•	DRAMATIC OR DRAMATICO-MUSICAL WORKS, such as plays, choreographic works, entertainments in dumb show, etc.
+
+•	CINEMATOGRAPHIC OR AUDIOVISUAL WORKS, such as feature films of all categories, music and dance films, music videos (music clips), advertisement films (ads), documentaries, video art, etc. Works expressed by a process analogous to cinematography are also included.
+
+•	WORKS RELATIVE TO SCIENCE, such as maps, plans, three-dimensional works relative to geography, topography, architecture, etc.
+
+•	DERIVATIVE WORKS, such as translations, adaptations, abridgements, arrangements of music and any other alteration of a literary of artistic work.
+
+•	COLLECTIONS WHICH BY REASON OF THE SELECTION AND ARRANGEMENT OF THEIR CONTENTS CONSTITUTE INTELLECTUAL CREATIONS, such as encyclopaedias, anthologies, original databases, books of recipes, school textbooks, commemorative publications, etc.
+</information>
+		</answer>
+		<answer>
+			<value>Euro bank-note or coins</value>
+			<gotoNr>20</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>First fixation of a film</value>
+			<gotoNr>1</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Unoriginal Database</value>
+			<gotoNr>6</gotoNr>
+			<information>Unoriginal databases are databases which show that there has been qualitatively and/or quantitatively a substantial investment in either the obtaining, verification or presentation of their contents. By contrast, original databases should be considered to be databases which, by reason of the selection or arrangement of their contents, constitute the author's own intellectual creation. For the purposes of this Tool, original databases should be considered to be literary or artistic works.</information>
+		</answer>
+		<answer>
+			<value>Phonogram</value>
+			<gotoNr>17</gotoNr>
+			<information>DISCLAIMER: In relation to neighbouring or related rights (i.e. rights over performances, phonograms and broadcast) the Public Domain Helper Tool only applies when at least one of the right-holders is a national of an EEA state. The European Economic Area (EEA) includes all member states of the European Union (Austria, Belgium, Bulgaria, Cyprus, the Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, and the United Kingdom), as well as Iceland, Liechtenstein and Norway.</information>
+		</answer>
+		<answer>
+			<value>Broadcast</value>
+			<gotoNr>13</gotoNr>
+			<information>DISCLAIMER: In relation to neighbouring or related rights (i.e. rights over performances, phonograms and broadcast) the Public Domain Helper Tool only applies when at least one of the right-holders is a national of an EEA state. The European Economic Area (EEA) includes all member states of the European Union (Austria, Belgium, Bulgaria, Cyprus, the Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, and the United Kingdom), as well as Iceland, Liechtenstein and Norway.</information>
+		</answer>
+		<answer>
+			<value>Performance</value>
+			<gotoNr>14</gotoNr>
+			<information>DISCLAIMER: In relation to neighbouring or related rights (i.e. rights over performances, phonograms and broadcast) the Public Domain Helper Tool only applies when at least one of the right-holders is a national of an EEA state. The European Economic Area (EEA) includes all member states of the European Union (Austria, Belgium, Bulgaria, Cyprus, the Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, and the United Kingdom), as well as Iceland, Liechtenstein and Norway.</information>
+		</answer>
+	</step>
+	<step nr="21">
+		<type>multiplechoice</type>
+		<question>
+			<text>What type of author does this work have?</text>
+			<information>For the purposes of this Tool, 
+
+-	Where the work has been created by the collaboration of two or more persons and if the contributions of these persons are inseparable (work of joint authorship), all contributors should be considered to be joint co-authors. 
+-	Where the work is created by a legal person or state institutions, that legal person or state institution should be considered to be the author of the work.</information>
+		</question>
+		<answer>
+			<value>Natural person</value>
+			<gotoNr>32</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Legal Entity or Anonymous/Pseudonymous</value>
+			<gotoNr>22</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Unknown</value>
+			<gotoNr>27</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="32">
+		<type>multiplechoice</type>
+		<question>
+			<text>What is the nationality or
+place of residence of the
+author?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Non EEA</value>
+			<gotoNr>33</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>EEA</value>
+			<gotoNr>39</gotoNr>
+			<information>The European Economic Area (EEA) includes all member states of the European Union (Austria, Belgium, Bulgaria, Cyprus, the Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, and the United Kingdom), as well as Iceland, Liechtenstein and Norway.</information>
+		</answer>
+	</step>
+	<step nr="33">
+		<type>multiplechoice</type>
+		<question>
+			<text>What is the country of origin of this work?</text>
+			<information>For the purposes of this Tool, the term “country of origin” should be understood according to the definition of Article 5(4) of the Berne Convention. According to Article 5(4) Berne Convention, the country of origin of a work should be considered to be:
+
+(a) in the case of works first published in a country of the Union, that country; in the case of works published simultaneously in several countries of the Union which grant different terms of protection, the country whose legislation grants the shortest term of protection.
+
+(b) in the case of works published simultaneously in a country outside the Union and in a country of the Union, the latter country.
+
+(c) in the case of unpublished works or of works first published in a country outside the Union, without simultaneous publication in a country of the Union, the country of the Union of which the author is a national, provided that:
+
+(i) when these are cinematographic works the maker of which has his headquarters or his habitual residence in a country of the Union, the country of origin shall be that country, and
+(ii) when these are works of architecture erected in a country of the Union or other artistic works incorporated in a building or other structure located in a country of the Union, the country of origin shall be that country.</information>
+		</question>
+		<answer>
+			<value>Berne TRIPS WCT (9)</value>
+			<gotoNr>35</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Not Berne TRIPS WCT (9)</value>
+			<gotoNr>34</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>EEA</value>
+			<gotoNr>39</gotoNr>
+			<information>The European Economic Area (EEA) includes all member states of the European Union (Austria, Belgium, Bulgaria, Cyprus, the Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, and the United Kingdom), as well as Iceland, Liechtenstein and Norway.</information>
+		</answer>
+	</step>
+	<step nr="35">
+		<type>result</type>
+		<result>
+			<text>Rule of shorter term applies</text>
+			<information></information>
+		</result>
+	</step>
+	<step nr="34">
+		<type>multiplechoice</type>
+		<question>
+			<text>What is nationality or place of
+residence of the author?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Non Berne TRIPS WCT (9)</value>
+			<gotoNr>20</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Berne TRIPS WCT (9)</value>
+			<gotoNr>35</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="20">
+		<type>result</type>
+		<result>
+			<text>Public Domain</text>
+			<information></information>
+		</result>
+	</step>
+	<step nr="39">
+		<type>multiplechoice</type>
+		<question>
+			<text>Has the work been made
+available to the public?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>40</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>38</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="40">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the work published
+within 70 years of the death
+of the last surviving author (10)?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>No</value>
+			<gotoNr>41</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>38</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="41">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the work published or
+communicated to the public
+more than 25 years ago?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>20</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>26</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="26">
+		<type>result</type>
+		<result>
+			<text>Still protected</text>
+			<information></information>
+		</result>
+	</step>
+	<step nr="38">
+		<type>multiplechoice</type>
+		<question>
+			<text>Did the last surviving
+author die more than 70
+years ago?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>20</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>26</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="22">
+		<type>multiplechoice</type>
+		<question>
+			<text>What is the nationality, place of
+residence or place of
+establishment of the author?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Not EEA</value>
+			<gotoNr>23</gotoNr>
+			<information>The European Economic Area (EEA) includes all member states of the European Union (Austria, Belgium, Bulgaria, Cyprus, the Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, and the United Kingdom), as well as Iceland, Liechtenstein and Norway.</information>
+		</answer>
+		<answer>
+			<value>EEA</value>
+			<gotoNr>24</gotoNr>
+			<information>The European Economic Area (EEA) includes all member states of the European Union (Austria, Belgium, Bulgaria, Cyprus, the Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, and the United Kingdom), as well as Iceland, Liechtenstein and Norway.</information>
+		</answer>
+	</step>
+	<step nr="23">
+		<type>multiplechoice</type>
+		<question>
+			<text>What is the country of origin of this work?</text>
+			<information>For the purposes of this Tool, the term “country of origin” should be understood according to the definition of Article 5(4) of the Berne Convention. According to Article 5(4) Berne Convention, the country of origin of a work should be considered to be:
+
+(a) in the case of works first published in a country of the Union, that country; in the case of works published simultaneously in several countries of the Union which grant different terms of protection, the country whose legislation grants the shortest term of protection.
+
+(b) in the case of works published simultaneously in a country outside the Union and in a country of the Union, the latter country.
+
+(c) in the case of unpublished works or of works first published in a country outside the Union, without simultaneous publication in a country of the Union, the country of the Union of which the author is a national, provided that:
+
+(i) when these are cinematographic works the maker of which has his headquarters or his habitual residence in a country of the Union, the country of origin shall be that country, and
+(ii) when these are works of architecture erected in a country of the Union or other artistic works incorporated in a building or other structure located in a country of the Union, the country of origin shall be that country.</information>
+		</question>
+		<answer>
+			<value>Berne TRIPS WCT (9)</value>
+			<gotoNr>35</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>EEA</value>
+			<gotoNr>24</gotoNr>
+			<information>The European Economic Area (EEA) includes all member states of the European Union (Austria, Belgium, Bulgaria, Cyprus, the Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, and the United Kingdom), as well as Iceland, Liechtenstein and Norway.</information>
+		</answer>
+		<answer>
+			<value>Not Berne TRIPS WCT (9)</value>
+			<gotoNr>25</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="24">
+		<type>multiplechoice</type>
+		<question>
+			<text>Has the work been make
+available to the public?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>28</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>29</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="28">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the work first
+published more than 70
+years after creation?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>No</value>
+			<gotoNr>30</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>31</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="30">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the work published
+more than 70 years ago?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>20</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>26</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="31">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the work published or
+communicated to the public
+more than 25 years ago?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>20</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>26</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="29">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the work created
+more than 70 years ago?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>20</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>26</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="25">
+		<type>multiplechoice</type>
+		<question>
+			<text>What is nationality or place of
+residence or place of
+establishment of the author?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Not Berne TRIPS WCT (9)</value>
+			<gotoNr>20</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Berne TRIPS WCT (9)</value>
+			<gotoNr>35</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="27">
+		<type>result</type>
+		<result>
+			<text>Orphan work</text>
+			<information></information>
+		</result>
+	</step>
+	<step nr="1">
+		<type>multiplechoice</type>
+		<question>
+			<text>Did the last-surviving of the following
+persons die more than 70 years ago:
+the producer, the principal director, the
+author of the screenplay, the author of
+the dialogue or the composer of the
+music specially created for use in the
+film?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>20</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>26</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="6">
+		<type>multiplechoice</type>
+		<question>
+			<text>Is the right holder a
+company or firm?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>7</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>4</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="7">
+		<type>multiplechoice</type>
+		<question>
+			<text>According to the law of
+which country was it
+formed?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Not EEA</value>
+			<gotoNr>9</gotoNr>
+			<information>The European Economic Area (EEA) includes all member states of the European Union (Austria, Belgium, Bulgaria, Cyprus, the Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, and the United Kingdom), as well as Iceland, Liechtenstein and Norway.</information>
+		</answer>
+		<answer>
+			<value>EEA</value>
+			<gotoNr>8</gotoNr>
+			<information>The European Economic Area (EEA) includes all member states of the European Union (Austria, Belgium, Bulgaria, Cyprus, the Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, and the United Kingdom), as well as Iceland, Liechtenstein and Norway.</information>
+		</answer>
+	</step>
+	<step nr="9">
+		<type>multiplechoice</type>
+		<question>
+			<text>In which country does
+it have its registered
+office?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>EEA</value>
+			<gotoNr>10</gotoNr>
+			<information>The European Economic Area (EEA) includes all member states of the European Union (Austria, Belgium, Bulgaria, Cyprus, the Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, and the United Kingdom), as well as Iceland, Liechtenstein and Norway.</information>
+		</answer>
+		<answer>
+			<value>Not EEA</value>
+			<gotoNr>11</gotoNr>
+			<information>The European Economic Area (EEA) includes all member states of the European Union (Austria, Belgium, Bulgaria, Cyprus, the Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, and the United Kingdom), as well as Iceland, Liechtenstein and Norway.</information>
+		</answer>
+	</step>
+	<step nr="10">
+		<type>multiplechoice</type>
+		<question>
+			<text>Are its operations
+genuinely linked on an
+ongoing basis with the
+economy of an EEA state?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>EEA</value>
+			<gotoNr>5</gotoNr>
+			<information>The European Economic Area (EEA) includes all member states of the European Union (Austria, Belgium, Bulgaria, Cyprus, the Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, and the United Kingdom), as well as Iceland, Liechtenstein and Norway.</information>
+		</answer>
+		<answer>
+			<value>Not EEA</value>
+			<gotoNr>11</gotoNr>
+			<information>The European Economic Area (EEA) includes all member states of the European Union (Austria, Belgium, Bulgaria, Cyprus, the Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, and the United Kingdom), as well as Iceland, Liechtenstein and Norway.</information>
+		</answer>
+	</step>
+	<step nr="5">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the database
+made available to the
+public after its
+completion or last
+substantial change?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>36</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>37</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="36">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the database
+made available to the
+public in the last 15
+years?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>No</value>
+			<gotoNr>11</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>12</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="11">
+		<type>result</type>
+		<result>
+			<text>Public Domain</text>
+			<information></information>
+		</result>
+	</step>
+	<step nr="12">
+		<type>result</type>
+		<result>
+			<text>Still protected</text>
+			<information></information>
+		</result>
+	</step>
+	<step nr="37">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the database
+completed or
+sustantially
+changed within the
+last 15 years?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>No</value>
+			<gotoNr>11</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>12</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="8">
+		<type>multiplechoice</type>
+		<question>
+			<text>In which country does it have its
+registered office, central
+administration, or principal
+place of business?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>EEA</value>
+			<gotoNr>5</gotoNr>
+			<information>The European Economic Area (EEA) includes all member states of the European Union (Austria, Belgium, Bulgaria, Cyprus, the Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, and the United Kingdom), as well as Iceland, Liechtenstein and Norway.</information>
+		</answer>
+		<answer>
+			<value>Not EEA</value>
+			<gotoNr>11</gotoNr>
+			<information>The European Economic Area (EEA) includes all member states of the European Union (Austria, Belgium, Bulgaria, Cyprus, the Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, and the United Kingdom), as well as Iceland, Liechtenstein and Norway.</information>
+		</answer>
+	</step>
+	<step nr="4">
+		<type>multiplechoice</type>
+		<question>
+			<text>Of which countries is the
+right-holder a national or
+resident?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>EEA</value>
+			<gotoNr>5</gotoNr>
+			<information>The European Economic Area (EEA) includes all member states of the European Union (Austria, Belgium, Bulgaria, Cyprus, the Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, and the United Kingdom), as well as Iceland, Liechtenstein and Norway.</information>
+		</answer>
+		<answer>
+			<value>Not EEA</value>
+			<gotoNr>11</gotoNr>
+			<information>The European Economic Area (EEA) includes all member states of the European Union (Austria, Belgium, Bulgaria, Cyprus, the Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, and the United Kingdom), as well as Iceland, Liechtenstein and Norway.</information>
+		</answer>
+	</step>
+	<step nr="17">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the phonogram
+published or
+communicated to the
+public within 50 years of
+creation?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>No</value>
+			<gotoNr>19</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>18</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="19">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the phonogram
+created more than 50
+years ago?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>No</value>
+			<gotoNr>3</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>2</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="3">
+		<type>result</type>
+		<result>
+			<text>Still protected</text>
+			<information></information>
+		</result>
+	</step>
+	<step nr="2">
+		<type>result</type>
+		<result>
+			<text>Public Domain</text>
+			<information></information>
+		</result>
+	</step>
+	<step nr="18">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the phonogram
+first published or
+communicated to the
+public more than 50
+years ago?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>No</value>
+			<gotoNr>3</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>2</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="13">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the
+programme first
+broadcast more
+than 50 years ago?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>No</value>
+			<gotoNr>3</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>2</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="14">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was a fixation of the performance
+published or communicated to the 
+public within 50 years of the
+performance?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>15</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>No</value>
+			<gotoNr>16</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="15">
+		<type>multiplechoice</type>
+		<question>
+			<text>Was the fixation first
+published or
+communicated to the
+public more than 50
+years ago?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>No</value>
+			<gotoNr>3</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>2</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+	<step nr="16">
+		<type>multiplechoice</type>
+		<question>
+			<text>Did the performance
+take place more than
+50 years ago?</text>
+			<information></information>
+		</question>
+		<answer>
+			<value>No</value>
+			<gotoNr>3</gotoNr>
+			<information></information>
+		</answer>
+		<answer>
+			<value>Yes</value>
+			<gotoNr>2</gotoNr>
+			<information></information>
+		</answer>
+	</step>
+</questions><dataSchema>
+</dataSchema></calculator>
