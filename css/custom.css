@@ -630,5 +630,9 @@ a.footer-license:hover {
 .lectures h1 {
   font-weight: 300;
   font-family: 'Ruluko', sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
+}
+
+.lectures h1 + p {
+  opacity: 0.85;
 }
