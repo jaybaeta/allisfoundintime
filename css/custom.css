@@ -14,6 +14,7 @@
    12...Buttons
    13...Article meta
    14...Lectures page
+   15...Downloads page
 
    ============================== */
 
@@ -635,4 +636,16 @@ a.footer-license:hover {
 
 .lectures h1 + p {
   opacity: 0.85;
+}
+
+/* 15. Downloads page */
+
+.downloads h3 {
+  font-weight: 300;
+  font-family: 'Ruluko', sans-serif;
+  font-size: 1.3rem;
+}
+
+.downloads h3 + p {
+  opacity: 0.7;
 }
