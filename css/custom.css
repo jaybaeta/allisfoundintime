@@ -515,11 +515,31 @@ p.blockquote-author {
 
 /* 11. Footer license */
 
-a.footer-license {
+
+p.footer-license {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #FCFCFC;
+  opacity: 0.8;
+}
+
+.footer-license .fa-creative-commons {
+  padding-right: 3px;
+}
+
+.footer-license .fa-creative-commons-by {
+  padding-right: 3px;
+}
+
+.footer-license .fa-creative-commons-sa {
+  padding-right: 3px;
+}
+
+.footer-license a {
   color: #bab7b6;
 }
 
-a.footer-license:hover {
+.footer-license a:hover {
     color: #dbdada;
 }
 
