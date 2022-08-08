@@ -373,13 +373,19 @@ a.bg-primary:hover, a.bg-primary:active {
   padding-right: 10%;
 }
 
-.article h1, .article h2 {
+.article h1, .article h2, .article h3 {
     font-weight: 300;
     font-family: 'Ruluko', sans-serif;
 }
 
 .article h2 {
   font-size: 1.8rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.5rem;
+}
+
+.article h3 {
+  font-size: 1.5rem;
   padding-top: 0.25rem;
   padding-bottom: 0.5rem;
 }
