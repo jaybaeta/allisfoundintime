@@ -13,7 +13,7 @@
    11...Footer license
    12...Buttons
    13...Article meta
-   14...Lectures page
+   14...Lectures and videos pages
    15...Downloads page
 
    ============================== */
@@ -652,15 +652,15 @@ p.footer-license {
   opacity: 0.6;
 }
 
-/* 14. Lectures page */
+/* 14. Lectures and videos pages */
 
-.lectures h1 {
+.lectures h1, .videos h1, {
   font-weight: 300;
   font-family: 'Ruluko', sans-serif;
   font-size: 1.5rem;
 }
 
-.lectures h1 + p {
+.lectures h1 + p, .videos h1 + p {
   opacity: 0.85;
 }
 
